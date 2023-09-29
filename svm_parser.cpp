@@ -124,8 +124,7 @@ Token *Scanner::nextToken() {
       while (c != '\n' && c != '\0') {
         c = nextChar();
       }
-      if (c == '\0')
-        return new Token(Token::END);
+      return this->nextToken();
       break;
     default:
       cout << "Programming Error ... quitting" << endl;

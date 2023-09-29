@@ -1,7 +1,6 @@
-% Nombre, apellido
-% Nombre, apellido
-% Nombre, apellido
+% Aaron, Camacho
+% Mauricio, Alvarez
+% Pedro, Mori
 push 6
 % codigo que calcula el factorial del valor arriba de la pila
 % en este caso, 6!
-
